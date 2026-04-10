@@ -9,16 +9,16 @@
 
 ## 🌐 Live Demo
 
-👉 **Try the App:** [Click Here](https://customer-churn-prediction-ml-twn4jqffobew3k3jqrlipe.streamlit.app/)
+👉 **Try the App:** Click Here :
+(https://customer-churn-prediction-ml-twn4jqffobew3k3jqrlipe.streamlit.app/)
 
 ---
 
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="C:\Users\HP\OneDrive\Desktop\AI_Project\ML_project\2nd_ML(Classification)\dashboard1.png" width="90%">
-  <img src="C:\Users\HP\OneDrive\Desktop\AI_Project\ML_project\2nd_ML(Classification)\dashboard2.png" width="80%">
-
+  <img src="images/dashboard1.png" width="80%">
+  <img src="images/dashboard2.png" width="80%">
 </p>
 
 ---

@@ -23,8 +23,11 @@
 ## 📸 Dashboard Preview
 
 <p align="center">
+  <b>📊 Output 1 - Dashboard Overview</b><br>
   <img src="dashboard1.png" width="80%">
   <br><br>
+
+  <b>📊 Output 2 - Prediction Insights</b><br>
   <img src="dashboard2.png" width="80%">
 </p>
 

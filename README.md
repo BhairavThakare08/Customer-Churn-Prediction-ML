@@ -1,16 +1,22 @@
 # 🚀 Customer Churn Prediction System
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Project-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Streamlit-Deployed-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.10-yellow?style=for-the-badge">
+</p>
+
+<p align="center">
   <b>💡 End-to-End Machine Learning Project with Interactive Dashboard</b><br>
-  <i>Predict customer churn with explainable insights and business-driven analytics</i>
+  <i>Predict customer churn with explainable insights & business-driven analytics</i>
 </p>
 
 ---
 
 ## 🌐 Live Demo
 
-👉 **Try the App:** Click Here :
-(https://customer-churn-prediction-ml-twn4jqffobew3k3jqrlipe.streamlit.app/)
+🚀 **Try the Application Here:**  
+👉 https://customer-churn-prediction-ml-twn4jqffobew3k3jqrlipe.streamlit.app/
 
 ---
 
@@ -18,6 +24,7 @@
 
 <p align="center">
   <img src="images/dashboard1.png" width="80%">
+  <br><br>
   <img src="images/dashboard2.png" width="80%">
 </p>
 
@@ -25,69 +32,52 @@
 
 ## 📌 Project Overview
 
-This project presents a **production-oriented Machine Learning solution** for predicting customer churn.
-It combines **multiple classification models, feature engineering, and hyperparameter tuning** with a **modern interactive dashboard** built using Streamlit.
+This project delivers a **production-ready Machine Learning solution** for predicting customer churn.
 
-The system not only predicts churn but also provides:
+It integrates:
+- 📊 **Multiple ML models**
+- ⚙️ **Advanced preprocessing & feature engineering**
+- 🎯 **Business-focused evaluation metrics**
+- 🌐 **Interactive Streamlit dashboard**
 
-* 📊 Churn probability visualization
-* 🧠 Risk factor analysis
-* 📈 Business insights & recommendations
+💡 The system not only predicts churn but also provides **actionable insights** to support strategic business decisions.
 
 ---
 
 ## 🎯 Key Features
 
-✨ **Real-Time Prediction**
-
-* Predict whether a customer will churn instantly
-
-📊 **Interactive Dashboard**
-
-* Dark-themed professional UI
-* Clean and structured layout
-
-📉 **Churn Probability Visualization**
-
-* Donut chart representation
-* Clear percentage-based output
-
-🧠 **Explainable AI (XAI)**
-
-* Risk factor breakdown
-* Key features influencing prediction
-
-📈 **Business Insights**
-
-* Helps companies take action
-* Suggests retention strategies
+- ⚡ **Real-Time Churn Prediction**
+- 📊 **Interactive Data Dashboard**
+- 📉 **Churn Probability Visualization**
+- 🧠 **Customer Risk Analysis**
+- 📈 **Business Insights & Recommendations**
 
 ---
 
 ## 🧠 Machine Learning Pipeline
 
-### 🔹 Models Used
+### 🔹 Models Implemented
 
-* Logistic Regression
-* K-Nearest Neighbors (KNN)
-* Decision Tree
-* Support Vector Machine (SVM)
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree Classifier
+- Support Vector Machine (SVM)
 
 ### 🔹 Techniques Applied
 
-* Data Cleaning & Preprocessing
-* Feature Encoding
-* Feature Selection
-* Standard Scaling
-* Train-Test Split
-* Hyperparameter Tuning (RandomizedSearchCV)
+- Data Cleaning & Missing Value Handling  
+- Feature Encoding (Label & One-Hot Encoding)  
+- Feature Scaling (StandardScaler)  
+- Feature Selection  
+- Train-Test Split  
+- Hyperparameter Optimization (RandomizedSearchCV)
 
 ---
 
-## 📊 Model Comparison  
+## 📊 Model Performance Comparison  
 
 | Model               | Accuracy | F1 Score | Recall |
-|-------------------- |----------|----------|--------|
+|---------------------|----------|----------|--------|
 | Logistic Regression | 0.74     | 0.62     | 0.81   |
 | KNN                 | 0.76     | 0.54     | 0.53   |
 | Decision Tree       | 0.77     | 0.58     | 0.60   |
@@ -95,53 +85,64 @@ The system not only predicts churn but also provides:
 
 ---
 
-## 🏆 Best Model Selection  
+## 🏆 Best Model Selection Strategy
 
-Although multiple models were evaluated, the final model selection was based on **F1-score and Recall**, as churn prediction is a business-critical problem.
+Unlike typical projects that focus only on **Accuracy**, this system prioritizes:
 
-- Logistic Regression achieved a strong balance between precision and recall  
-📌 *Focus was given to Recall and F1-score rather than only Accuracy.*
+- ✅ **Recall** → To minimize false negatives (missing churn customers)
+- ✅ **F1-Score** → Balance between precision & recall
+
+📌 **Final Model:** Logistic Regression  
+✔️ Best trade-off between performance & interpretability  
+✔️ Suitable for real-world business deployment  
 
 ---
 
 ## 🧩 Input Features
 
-The model uses key customer attributes such as:
+Key attributes used for prediction:
 
-* Gender
-* Senior Citizen
-* Tenure
-* Monthly Charges
-* Total Charges
-* Contract Type
-* Internet Service
-* Tech Support
-* Online Security
+- 👤 Customer Demographics (Gender, Senior Citizen)
+- ⏳ Account Information (Tenure, Contract Type)
+- 💰 Billing Details (Monthly Charges, Total Charges)
+- 🌐 Services (Internet Service, Tech Support, Security)
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Programming:** Python
-* **Libraries:** Pandas, NumPy, Scikit-learn
-* **Visualization:** Matplotlib, Altair
-* **Deployment/UI:** Streamlit
+| Category       | Tools Used         |
+|--------------- |--------------------|
+| Programming    | Python             |
+| Data Handling  | Pandas, NumPy      |
+| ML Models      | Scikit-learn       |
+| Visualization  | Matplotlib, Altair |
+| Deployment     | Streamlit          |
 
 ---
 
-## 💡 Business Use Case
+## 💡 Business Impact
 
-This system helps companies:
+This solution enables organizations to:
 
-* Identify high-risk customers
-* Reduce churn rate
-* Improve customer retention
-* Make data-driven decisions
+- 🎯 Identify high-risk customers early  
+- 📉 Reduce churn rate  
+- 💰 Increase customer retention  
+- 📊 Make data-driven strategic decisions  
 
 ---
 
-## 👨‍💻 Author
+## ⚙️ How to Run Locally
 
-**Bhairav Thakare**
+```bash
+# Clone the repository
+git clone https://github.com/your-username/customer-churn-prediction.git
 
+# Navigate to project folder
+cd customer-churn-prediction
 
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py

@@ -23,9 +23,9 @@
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="images/dashboard1.png" width="80%">
+  <img src="dashboard1.png" width="80%">
   <br><br>
-  <img src="images/dashboard2.png" width="80%">
+  <img src="dashboard2.png" width="80%">
 </p>
 
 ---
